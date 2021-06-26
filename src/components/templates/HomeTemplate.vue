@@ -1,25 +1,54 @@
 <template>
     <div class="home-template">
         <SideNav class="aside"/>
-        <Main class="main"/>
+        <Main class="main">
+            <Lista :data=dados  />
+        </Main>
         <CardContainer class="card-container">
-            <Card class="card"/>
-            <Card class="card"/>
-            <Card class="card"/>
+            <Card class="card" text="Você tem 30 leads" />
+            <Card class="card" text="Último lead adicionado foi Fulano de tal, no dia 14/06/2020" />
+            <Card class="card" :text=numLeads />
         </CardContainer>
     </div>
 </template>
 
 <script>
+import {mapActions} from  'vuex'
 
 import {SideNav, Main, Card} from '@/components/organisms'
 import {CardContainer} from '@/components/bosons'
+import{ Lista} from '@/components/molecules'
     export default {
         components:{
             SideNav,
             Main,
             Card,
-            CardContainer
+            CardContainer,
+            Lista
+        },
+        data(){
+            return{
+                numLeads: `Você tem um total de ${this.totalLeads}`
+            }
+        },
+        created(){
+            this.start()
+        },
+        methods:{
+            ...mapActions([
+                "fetchLeads"
+            ]),
+            start(){
+                this.$store.dispatch("fetchLeads");
+            }
+        },
+        computed:{
+            dados(){
+                return this.$store.getters.$allLeads
+            },
+            totalLeads(){
+                return this.$store.getters.$totalLeads
+            }
         }
     }
 </script>
@@ -30,7 +59,7 @@ import {CardContainer} from '@/components/bosons'
     display: grid;
     height: 100%;
     grid-template-columns: 150px  1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 3fr 1fr;
     grid-gap: 1rem;
     grid-template-areas: 
     'aside main'
@@ -44,7 +73,7 @@ import {CardContainer} from '@/components/bosons'
 }
 .main{
     border: 1px solid;
-  grid-area: main;
+    grid-area: main;
    border-radius: 5px;
 }
 .card-container{
@@ -62,6 +91,11 @@ import {CardContainer} from '@/components/bosons'
         margin: .1rem;
        border-radius: 5px;
        height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       padding: .8rem;
    }
 }
 

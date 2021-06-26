@@ -6,7 +6,8 @@
       </div>
       <ul class="elementos">
         <li><a href="">Home</a></li>
-        <li><a href="">Edição</a></li>
+        <li><a href="">Adicionar</a></li>
+        <li><a href="">Remover</a></li>
         <li><a href="">Sobre</a></li>
       </ul>
       <div class="perfil">

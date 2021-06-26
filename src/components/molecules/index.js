@@ -1,0 +1,1 @@
+export{default as Lista} from './ListaHome.vue'
