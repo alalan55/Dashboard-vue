@@ -1,11 +1,16 @@
 <template>
     <div>
-        <h3>card</h3>
+        <span>
+            {{text}}
+        </span>
     </div>
 </template>
 
 <script>
     export default {
+        props:{
+            text:{type: String, required: true}
+        }
         
     }
 </script>
