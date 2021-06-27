@@ -65,9 +65,10 @@ export default {};
     margin: 2.5rem 0;
     text-align: center;
     width: 100%;
-    transition: 0.2s ease-in-out;
+    transition: .1s ease;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
     &:hover {
       // background: rgb(220, 219, 219);
       background: rgb(131, 131, 131);
