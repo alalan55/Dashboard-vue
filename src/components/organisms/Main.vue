@@ -24,6 +24,12 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+main{
+  background:rgba(255,255,255,0.1);
+border-top: 1px solid rgba(255,255,255,0.5);
+border-left: 1px solid rgba(255,255,255,0.5);
+backdrop-filter: blur(5px);
+}
 .content {
   display: flex;
   justify-content: space-between;
@@ -32,6 +38,7 @@ export default {};
   .titulo{
       h1{
           font-weight: 400;
+          color: white;
       }
   }
 
@@ -57,6 +64,7 @@ export default {};
     }
   }
   .text-perfil {
+    color: white;
   }
 }
 }

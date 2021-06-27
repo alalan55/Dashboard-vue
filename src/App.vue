@@ -18,6 +18,8 @@ export default {
 <style lang="scss">
 .container{
   height: 100vh;
+  background: url(https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat;
+  background-size: cover;
 }
 @media screen and (max-width:680px){
   .container{
