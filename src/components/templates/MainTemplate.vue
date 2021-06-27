@@ -7,7 +7,7 @@
     <Card class="card" text="Pensar em uma informação" />
     <Card
       class="card"
-      text="Último lead adicionado foi Fulano de tal, no dia 14/06/2020"
+      :text="ultimoAddLead"
     />
     <Card class="card" :text="totalLeads" />
   </CardContainer>
@@ -45,6 +45,10 @@ export default {
       let msg = `Você tem um total de ${this.$store.getters.$totalLeads} leads.`;
       return msg;
     },
+    ultimoAddLead(){
+      let msg = `Último Lead '${this.$store.getters.$ultimaAdd.nome}' foi adicionado em ${this.$store.getters.$ultimaAdd.date}`
+      return msg
+    }
   },
 };
 </script>

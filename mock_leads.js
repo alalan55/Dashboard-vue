@@ -2,42 +2,42 @@ const leads = [
     {
         id: 1,
         nome: 'Alan',
-        sobrenome: 'Ferreira',
+        sobrenome: 'Oliveira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 2,
-        nome: 'Alan',
-        sobrenome: 'Ferreira',
+        nome: 'Julio',
+        sobrenome: 'Pedro',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 3,
-        nome: 'Alan',
-        sobrenome: 'Ferreira',
+        nome: 'Lucas',
+        sobrenome: 'Paulo',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 4,
-        nome: 'Alan',
-        sobrenome: 'Ferreira',
+        nome: 'Jorge',
+        sobrenome: 'João',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 5,
-        nome: 'Alan',
-        sobrenome: 'Ferreira',
+        nome: 'José',
+        sobrenome: 'Henrique',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 6,
@@ -45,23 +45,23 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 7,
         nome: 'Alan',
-        sobrenome: 'Ferreira',
+        sobrenome: 'Mariana',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 8,
         nome: 'Alan',
-        sobrenome: 'Ferreira',
+        sobrenome: 'Julia',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 10,
@@ -77,7 +77,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 11,
@@ -85,7 +85,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 12,
@@ -93,7 +93,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 13,
@@ -101,7 +101,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 14,
@@ -109,7 +109,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 15,
@@ -117,7 +117,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 16,
@@ -125,7 +125,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 17,
@@ -133,7 +133,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 18,
@@ -141,7 +141,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 19,
@@ -149,7 +149,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 20,
@@ -157,7 +157,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 21,
@@ -165,7 +165,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 22,
@@ -173,7 +173,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 23,
@@ -181,7 +181,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 24,
@@ -189,7 +189,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 25,
@@ -197,7 +197,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 26,
@@ -205,7 +205,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 27,
@@ -213,7 +213,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 28,
@@ -221,7 +221,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 29,
@@ -229,7 +229,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 30,
@@ -237,7 +237,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 31,
@@ -245,7 +245,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 32,
@@ -253,7 +253,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 33,
@@ -261,7 +261,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 34,
@@ -269,7 +269,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 35,
@@ -277,7 +277,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 36,
@@ -285,7 +285,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 37,
@@ -293,7 +293,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 38,
@@ -301,7 +301,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 39,
@@ -309,7 +309,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 40,
@@ -317,7 +317,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 41,
@@ -325,7 +325,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 42,
@@ -333,7 +333,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 43,
@@ -341,7 +341,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 44,
@@ -349,7 +349,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 45,
@@ -357,7 +357,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 46,
@@ -365,7 +365,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 47,
@@ -373,7 +373,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 48,
@@ -381,7 +381,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 49,
@@ -389,7 +389,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     },
     {
         id: 50,
@@ -397,7 +397,7 @@ const leads = [
         sobrenome: 'Ferreira',
         cargo: 'Desenvolvedor',
         setor: 'Tecnologia',
-        tempoEmPresaAnos: 6
+        tempoEmPresaAnos: 6, date: "27/06/2021"
     }
 ]
 

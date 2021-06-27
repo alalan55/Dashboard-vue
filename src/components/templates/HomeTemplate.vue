@@ -1,11 +1,10 @@
 <template>
   <div class="home-template">
-    <SideNav class="aside" @click-value="alteraView"/>
+    <SideNav class="aside" @click-value="alteraView" />
 
     <div class="component">
-        <component :is="currentView"/>
+      <component :is="currentView" />
     </div>
-
   </div>
 </template>
 
@@ -15,20 +14,18 @@ import { mapActions } from "vuex";
 import { SideNav } from "@/components/organisms";
 //import { CardContainer } from "@/components/bosons";
 // import { Lista } from "@/components/molecules";
-import { EditarTemplate, MainTemplate } from "@/components/templates";
+// import { EditarTemplate } from "@/components/templates";
+import MainTemplate from "@/components/templates/MainTemplate.vue";
+import EditarTemplate from "@/components/templates/EditarTemplate.vue";
 export default {
   components: {
     SideNav,
-    // Main,
-    // Card,
- //   CardContainer,
-  //  Lista,
+    MainTemplate,
     EditarTemplate,
-    MainTemplate
   },
   data() {
     return {
-        currentView: 'EditarTemplate'
+      currentView: "MainTemplate",
     };
   },
   created() {
@@ -39,10 +36,10 @@ export default {
     start() {
       this.$store.dispatch("fetchLeads");
     },
-    alteraView(e){
-        this.currentView = e
-        console.log(this.currentView)
-    }
+    alteraView(e) {
+      this.currentView = e;
+      console.log(this.currentView);
+    },
   },
   computed: {
     dados() {
@@ -57,10 +54,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.component{
-   // border: 5px solid red;
-   grid-area: component;
-   // border: 1px solid red;
+.component {
+  // border: 5px solid red;
+  grid-area: component;
+  // border: 1px solid red;
+  z-index: 1;
 }
 .home-template {
   padding: 1rem;
@@ -69,16 +67,16 @@ export default {
   grid-template-columns: 150px 1fr;
   grid-template-rows: 3fr 1fr;
   grid-gap: 1rem;
-//   grid-template-areas:
-//     "aside main"
-//     "aside card-container";
+  //   grid-template-areas:
+  //     "aside main"
+  //     "aside card-container";
   grid-template-areas:
     "aside component"
     "aside component";
 }
 .aside {
   grid-area: aside;
- // border: 1px solid red;
+  // border: 1px solid red;
   border-radius: 5px;
 }
 .main {
