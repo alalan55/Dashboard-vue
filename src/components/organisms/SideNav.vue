@@ -5,13 +5,11 @@
         <span>LOGO</span>
       </div>
       <ul class="elementos">
-        <li><a href="">Home</a></li>
-        <li><a href="">Adicionar</a></li>
-        <li><a href="">Remover</a></li>
-        <li><a href="">Sobre</a></li>
+        <li  @click="$emit('click-value', 'MainTemplate')">Home</li>
+        <li  @click="$emit('click-value', 'EditarTemplate')">Editar</li>
+        <li  @click="$emit('click-value', 'Sobre')">Sobre</li>
       </ul>
       <div class="perfil">
-
         <div class="logout">
           <span>Sair</span>
           <img
@@ -30,46 +28,54 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.logo{
-    span{
-        font-weight: 600;
-    }
+.logo {
+  span {
+    font-weight: 600;
+    color: white;
+  }
 }
 .sidenav {
   padding: 1rem;
-  border: 1px solid black;
+  // border: 1px solid black;
   height: 100%;
-//   position: fixed;
-//   z-index: 1;
-//   top: 0;
-//   left: 0;
+  //   position: fixed;
+  //   z-index: 1;
+  //   top: 0;
+  //   left: 0;
   //   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
 }
-.conteudo__sidenav{
-     display: flex;
+.conteudo__sidenav {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   height: 100%;
 }
 .elementos {
-    width: 100%;
+  width: 100%;
   li {
     list-style: none;
     margin: 2.5rem 0;
     text-align: center;
     width: 100%;
-    transition:  .2s ease-in-out;
+    transition: 0.2s ease-in-out;
     border-radius: 3px;
-    &:hover{
-        background: rgb(220, 219, 219);
+    color: white;
+    &:hover {
+      // background: rgb(220, 219, 219);
+      background: rgb(131, 131, 131);
     }
 
     a {
       text-decoration: none;
-      color: black;
+      color: white;
     }
   }
 }
@@ -101,6 +107,7 @@ export default {};
   align-items: center;
   justify-content: space-evenly;
   //   border: 1px solid;
+  color: white;
   img {
     margin-left: 0.2rem;
   }
